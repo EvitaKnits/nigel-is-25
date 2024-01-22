@@ -38,6 +38,7 @@ Aiming for a vivid, stylish and energising palette.
 Favicon generator: https://realfavicongenerator.net/
 Favicon icon source: https://www.flaticon.com/free-icon/birthday-cake_1412443
 Nigel smiling on homepage: Photo by Stefan Stefancik: https://www.pexels.com/photo/man-on-gray-shirt-portrait-91227/
+Wording of homepage main content assisted by Chat GPT with the prompt: "Pretend you are inviting your friends to your birthday party. You are called Nigel, you are a man turning 25 years old. It should be a paragraph long"
 
 ## TESTING
 

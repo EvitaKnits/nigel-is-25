@@ -3,6 +3,11 @@
 
 /* General Styles */
 
+* {
+        /* Makes all the elements go right to the edges by default */
+    margin:0%;
+
+}
 
 /* Header */
 
@@ -14,11 +19,15 @@ nav {
     background-color: #E3705F;
 }
 
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
 
 /* Main */
 
 main {
     background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
 }
 
 #nigel-smile {
