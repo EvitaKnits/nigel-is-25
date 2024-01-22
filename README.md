@@ -1,8 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-<h2>PLANNING</h2>
+## PLANNING
 
-<h3>User Stories:</h3>
+### User Stories:
 
 As a birthday party host 
 I want a birthday party website with all the information relating to my party
@@ -16,7 +16,7 @@ As a birthday party host
 I want a responsive birthday party website
 So that my potential guests have a good experience of my website from whichever device they choose to access it from
 
-<h3>User Needs: </h3>
+### User Needs:
 
 - Information about the activity
 - Information about the location
@@ -27,13 +27,19 @@ So that my potential guests have a good experience of my website from whichever 
 - Viewable on any device so it does not matter which device the website is accessed on
 - Clear display and intuitive navigation for ease of use
 
-<h2>EXECUTION</h2>
+### Colour Palette
+
+Aiming for a vivid, stylish and energising palette.
+
+![Colour palette](assets/images/colourpalette.png)
+
+## EXECUTION
 
 Favicon generator: https://realfavicongenerator.net/
 Favicon icon source: https://www.flaticon.com/free-icon/birthday-cake_1412443
 
-<h2>TESTING</h2>
+## TESTING
 
-<h2>DEPLOYMENT</h2>
+## DEPLOYMENT
 
-<h2>CREDITS</h2>
+## CREDITS
