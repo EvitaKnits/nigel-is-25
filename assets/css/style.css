@@ -1,17 +1,30 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* General Styles */
+
+
 /* Header */
 
 header {
     background-color: #71B2B5;
-
 }
+
+nav {
+    background-color: #E3705F;
+}
+
 
 /* Main */
 
 main {
     background-color: #F5F5F5;
+}
+
+#nigel-smile {
+    max-width: 100%;
+    height:auto;
+    border-radius: 5%;
 }
 
 /* Footer */
