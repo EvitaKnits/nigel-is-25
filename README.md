@@ -37,6 +37,7 @@ Aiming for a vivid, stylish and energising palette.
 
 Favicon generator: https://realfavicongenerator.net/
 Favicon icon source: https://www.flaticon.com/free-icon/birthday-cake_1412443
+Nigel smiling on homepage: Photo by Stefan Stefancik: https://www.pexels.com/photo/man-on-gray-shirt-portrait-91227/
 
 ## TESTING
 
