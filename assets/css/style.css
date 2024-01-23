@@ -65,6 +65,11 @@ main div {
     padding: 2px;
 }
 
+hr {
+    border:5px solid #E3705F;
+    border-radius: 50%;
+}
+
 /* Footer */
 
 footer {
