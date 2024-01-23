@@ -29,24 +29,17 @@ header h1 {
 
 nav {
     background-color: #E3705F;
-    text-align: right;
     font-family: 'Roboto Slab', serif;
-
-}
-
-nav summary {
-    padding-right: 1em;
-}
-
-#nav-menu {
-    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav a {
     text-decoration: none;
     color: #372C57;
-    padding: 10% 1em 10% 0;
-
+    margin: 0.5em;
+    flex-basis: content;
 }
 
 h1 {
@@ -71,4 +64,18 @@ main {
 
 footer {
     background-color: #71B2B5;
+}
+
+/* Media query for medium devices (768px and up) as per W3 Schools Typical Device Breakpoints */
+@media only screen and (min-width: 768px) {
+nav {
+    justify-content: right;
+}
+}
+
+/* Media query for large devices (992px and up) as per W3 Schools Typical Device Breakpoints */
+@media only screen and (min-width: 992px) {
+nav a {
+    font-size: 150%;
+}
 }

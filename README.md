@@ -41,7 +41,6 @@ Nigel smiling on homepage: Photo by Stefan Stefancik: https://www.pexels.com/pho
 Wording of homepage main content assisted by Chat GPT with the prompt: "Pretend you are inviting your friends to your birthday party. You are called Nigel, you are a man turning 25 years old. It should be a paragraph long"
 Font Awesome used for icons: https://fontawesome.com/
 
-
 ## TESTING
 
 ## DEPLOYMENT
