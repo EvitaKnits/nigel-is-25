@@ -20,7 +20,8 @@ header {
 }
 
 header h1 {
-    padding-left: 0.5em;
+    padding: 0.5em;
+    font-size:xxx-large;
 }
 
 #home-page-title {
@@ -73,8 +74,19 @@ hr {
 
 /* Footer */
 
-footer {
+#footer-text {
     background-color: #71B2B5;
+    color: #372C57;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    padding:10px;
+    line-height: 1.5;
+}
+
+footer a {
+    color:#372C57;
+    font-size: 150%;
+    padding: 12px;
 }
 
 /* Media query for medium devices (768px and up) as per W3 Schools Typical Device Breakpoints */
@@ -82,8 +94,6 @@ footer {
 nav {
     justify-content: right;
 }
-
-
 
 }
 
@@ -95,6 +105,7 @@ nav a {
 
 main {
     display:flex;
+    align-items: center;
 }
 
 main div {
@@ -103,6 +114,7 @@ main div {
 
 #intro-text {
     align-self:center;
+    /* Border */
 }
 
 body {
@@ -110,6 +122,6 @@ body {
 }
 
 hr {
-    margin: 30px;
+    display: none;
 }
 }
