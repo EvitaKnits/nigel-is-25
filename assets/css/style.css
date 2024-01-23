@@ -66,8 +66,9 @@ main div {
 }
 
 hr {
-    border:5px solid #E3705F;
+    border:3px solid #E3705F;
     border-radius: 50%;
+    margin: 5px;
 }
 
 /* Footer */
@@ -90,5 +91,25 @@ nav {
 @media only screen and (min-width: 992px) {
 nav a {
     font-size: 130%;
+}
+
+main {
+    display:flex;
+}
+
+main div {
+    padding: 50px;
+}
+
+#intro-text {
+    align-self:center;
+}
+
+body {
+    font-size: 150%;
+}
+
+hr {
+    margin: 30px;
 }
 }
