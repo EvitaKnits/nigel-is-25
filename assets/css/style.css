@@ -50,14 +50,19 @@ h1 {
 /* Main */
 
 main {
-    background-color: #F5F5F5;
+    background-color: #E6DFD8;
     font-family: 'Roboto', sans-serif;
+}
+
+main div {
+    padding: 10px;
 }
 
 #nigel-smile {
     max-width: 100%;
     height:auto;
     border-radius: 5%;
+    padding: 2px;
 }
 
 /* Footer */
@@ -71,11 +76,14 @@ footer {
 nav {
     justify-content: right;
 }
+
+
+
 }
 
 /* Media query for large devices (992px and up) as per W3 Schools Typical Device Breakpoints */
 @media only screen and (min-width: 992px) {
 nav a {
-    font-size: 150%;
+    font-size: 130%;
 }
 }
