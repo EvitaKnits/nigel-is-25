@@ -5,8 +5,12 @@
 
 * {
         /* Makes all the elements go right to the edges by default */
-    margin:0%;
+    margin: 0%;
 
+}
+
+body {
+    color:#372C57;
 }
 
 /* Header */
@@ -15,12 +19,39 @@ header {
     background-color: #71B2B5;
 }
 
+header h1 {
+    padding-left: 0.5em;
+}
+
+#home-page-title {
+    text-decoration: none;
+}
+
 nav {
     background-color: #E3705F;
+    text-align: right;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+nav summary {
+    padding-right: 1em;
+}
+
+#nav-menu {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #372C57;
+    padding: 10% 1em 10% 0;
+
 }
 
 h1 {
     font-family: 'Roboto Slab', serif;
+    color:#372C57;
 }
 
 /* Main */
