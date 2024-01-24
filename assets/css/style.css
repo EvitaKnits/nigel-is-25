@@ -48,6 +48,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.current-page {
+    border-style: hidden hidden dotted hidden;
+    border-width: 4px;
+    border-color: #E6DFD8;
+}
+
 h1 {
     font-family: 'Roboto Slab', serif;
     color: #372C57;
@@ -58,6 +64,8 @@ h1 {
 main {
     background-color: #E6DFD8;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 main div {
@@ -75,6 +83,11 @@ main div {
 #intro-text {
     padding-left: 2em;
     padding-right: 2em;
+    flex-grow: 1;
+}
+
+#intro-image-div {
+    flex-grow: 0;
 }
 
 hr {
@@ -122,6 +135,7 @@ footer a {
 
     main {
         display: flex;
+        flex-direction: row;
         align-items: center;
     }
 
