@@ -119,7 +119,15 @@ main section {
 }
 
 section h3 {
-    padding-bottom: 1em;
+    padding: 1em 0;
+}
+
+#intro-section {
+    margin-bottom: 0;
+}
+
+#axe-bar-section {
+    margin-top: 0;
 }
 
 /* Footer */
@@ -142,6 +150,13 @@ footer a {
     color: #372C57;
     font-size: 150%;
     padding: 3px;
+}
+
+/* Media query for small devices (767px and down) as per W3 Schools Typical Device Breakpoints */
+@media only screen and (max-width: 767px) {
+    h3 {
+        font-size: medium;
+    }
 }
 
 /* Media query for medium devices (768px and up) as per W3 Schools Typical Device Breakpoints */
@@ -171,7 +186,7 @@ footer a {
 
     #intro-text {
         align-self: center;
-        border-left: 3px solid #E3705F;
+        border-left: 3px solid #71B2B5;
         border-top: 3px solid #E3705F;
     }
 
@@ -184,7 +199,29 @@ footer a {
     }
 
     #intro-image-div {
-        width: 80%;
+        width: 100%;
         height: auto;
     }
+
+    #axe-bar-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+   #activity-details {
+    align-self:flex-start;
+    border-top: 3px solid #71B2B5;
+   }
+   
+   #bar-details {
+    align-self: flex-end;
+    border-left: 3px solid #E3705F;
+    border-bottom: 3px solid #71B2B5;
+   }
+
+   #bar-picture-div {
+    padding-top: 0;
+   }
+
 }
