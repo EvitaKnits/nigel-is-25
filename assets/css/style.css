@@ -210,18 +210,28 @@ footer a {
     }
 
    #activity-details {
-    align-self:flex-start;
     border-top: 3px solid #71B2B5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-content: baseline;
+   }
+
+   #activity-details > div {
+    flex-grow: 1;
    }
    
    #bar-details {
-    align-self: flex-end;
     border-left: 3px solid #E3705F;
     border-bottom: 3px solid #71B2B5;
+    flex-basis: 50%;
    }
 
    #bar-picture-div {
     padding-top: 0;
    }
 
+   section h3 {
+    padding: 0;
+   }
 }
