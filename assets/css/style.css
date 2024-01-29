@@ -161,6 +161,46 @@ th {
     justify-content: center;
 }
 
+/* RSVP Page Main */
+
+#bottles-bar {
+    max-width: 100%;
+    height: auto;
+}
+
+#rsvp-image-div {
+    position: relative;
+}
+
+/* Block of text on image*/
+#text-block {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: start;
+}
+
+#text-block h1 {
+    font-size: 30vw;
+    color: #71B2B5;
+    padding: 20px;
+    }
+
+form {
+    border: 2px solid #71B2B5;
+    padding: 1em;
+    line-height: 2;
+}
+
+input[type=text] {
+    width: 50%;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-left: 2em;
+}
+
 /* Footer */
 
 #footer-text {
@@ -188,7 +228,13 @@ footer a {
     h3 {
         font-size: medium;
     }
+
+    #dierary-details {
+        width: 100%;
+    }
 }
+
+
 
 /* Media query for medium devices (768px and up) as per W3 Schools Typical Device Breakpoints */
 @media only screen and (min-width: 768px) {
@@ -292,4 +338,6 @@ footer a {
         border-right: 3px solid #71B2B5;
         padding: 30px;
     }
+
+    
 }

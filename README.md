@@ -44,7 +44,7 @@ Aiming for a vivid, stylish and energising palette.
 - All Bar One photo from: https://www.allbarone.co.uk/national-search/south-east/all-bar-one-brighton#/
 - How to style tables: https://www.w3schools.com/html/html_table_borders.asp
 - Wording of details main content assisted by Chat GPT, asking it to write my paragraph in the same voice as the homepage. My content before: Here is all the information you'll need to turn up in the right place at the right time! The axe throwing activity is optional so you can just turn up to the bar part if you like, or even join us for the activity but duck out after. It'd be lovely to see you at either or both! Make sure you tell me which its you'll be attending via the RSVP form. Cheers all.
-- Where I learnt to make my RSVP text clipped mask image: https://codepen.io/dudleystorey/pen/aONdzJ
+- Where I learnt to add a text block over my bar image on the RSVP page: https://www.w3schools.com/howto/howto_css_image_text_blocks.asp
 - Bar photo used on RSVP page: Photo by Kawasaki Toshihiro: https://unsplash.com/photos/brown-wooden-bottle-rack-with-bottles-X5upu8w0ZTc
 
 ## TESTING

@@ -43,16 +43,19 @@
     <!--Main Body-->
     <main>
         <section>
-            <div>
+            <div id="rsvp-image-div">
+                <div id="text-block">
+                <h1>RSVP</h1>
+                </div>
                 <img src="assets/images/bottles-on-bar.jpg" alt=" A picture of a bar with lots of glass bottles on shelves. There are no people. Photo by Kawasaki
                 Toshihiro from Unsplash" id="bottles-bar">
             </div>
             <div>
-                <form>
+                <form method="POST" action="https://formdump.codeinstitute.net">
                     <label for="first-name">First name:</label><br>
                     <input type="text" id="first-name" name="first-name"><br>
                     <label for="last-name">Last name:</label><br>
-                    <input type="text" id="last-name" name="last-name">
+                    <input type="text" id="last-name" name="last-name"><br><br>
                     <p>I will be attending:</p>
                     <input type="radio" id="axe-throw" name="rsvp" value="axe-throwing-only">
                     <label for="axe-throw">Axe Throwing</label><br>
@@ -61,7 +64,7 @@
                     <input type="radio" id="both" name="rsvp" value="axe-and-bar">
                     <label for="both">Both</label><br>
                     <input type="radio" id="neither" name="rsvp" value="not-coming">
-                    <label for="neither">Neither</label>
+                    <label for="neither">Neither</label><br><br>
                     <p>My dietary requirements are:</p>
                     <input type="checkbox" id="vegetarian" name="vegetarian" value="vegetarian">
                     <label for="vegetarian">Vegetarian</label><br>
@@ -71,11 +74,11 @@
                     <label for="gluten-free">Gluten Free</label><br>
                     <input type="checkbox" id="dairy-free" name="dairy-free" value="Bike">
                     <label for="dairy-free">Dairy Free</label><br>
-                    <label for="allergy">Allergy:</label><br>
-                    <input type="text" id="allergy" name="allergy"><br>
-                    <label for="other">Other:</label><br>
-                    <input type="text" id="other" name="other"><br>
-                    <input type="submit" value="Submit">            
+                    <input type="checkbox" id="allergy-other" name="allergy-other">
+                    <label for="allergy-other">Allergy / Other</label><br>
+                    <label for="dietary-details">Dietary Requirement Details:</label><br>
+                    <input type="text" id="dietary-details" name="dietary-details"><br><br>
+                    <input type="submit" value="Submit">
                 </form>
             </div>
         </section>
