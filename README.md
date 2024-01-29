@@ -42,6 +42,7 @@ Wording of homepage main content assisted by Chat GPT with the prompt: "Pretend 
 Font Awesome used for icons: https://fontawesome.com/
 W3 schools for making a responsive iframe for my youtube video: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
 All Bar One photo from: https://www.allbarone.co.uk/national-search/south-east/all-bar-one-brighton#/
+How to style tables: https://www.w3schools.com/html/html_table_borders.asp
 
 ## TESTING
 

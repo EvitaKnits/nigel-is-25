@@ -59,7 +59,7 @@ nav a:hover {
     border-color: #372C57;
 }
 
-/* Main */
+/* Main + homepage */
 
 main {
     background-color: #E6DFD8;
@@ -128,6 +128,24 @@ section h3 {
 
 #axe-bar-section {
     margin-top: 0;
+}
+
+/* Details Page Main */
+
+table, td {
+    border: 2px solid #E6DFD8;
+    border-collapse: collapse;
+    background-color: rgba(227, 112, 95, 0.35);
+    padding: 1em;
+    text-align: left;
+}
+
+th {
+    border: 2px solid #E6DFD8;
+    border-collapse: collapse;
+    background-color: rgba(113, 178, 181, 0.8);
+    padding: 1em;
+    text-align: left;
 }
 
 /* Footer */
