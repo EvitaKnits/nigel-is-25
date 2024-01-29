@@ -76,7 +76,8 @@ main {
     margin: 0.25em 0 0.5em 0;
 }
 
-#intro-text {
+#intro-text,
+#details-intro-text {
     padding: 1.5em;
 }
 
@@ -96,7 +97,8 @@ main section {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 #axe-video {
@@ -136,7 +138,8 @@ iframe {
 
 /* Details Page Main */
 
-table, td {
+table,
+td {
     border: 2px solid #E6DFD8;
     border-collapse: collapse;
     background-color: rgba(227, 112, 95, 0.35);
@@ -153,6 +156,10 @@ th {
     font-size: 110%;
 }
 
+#details-table {
+    display: flex;
+    justify-content: center;
+}
 
 /* Footer */
 
@@ -233,33 +240,56 @@ footer a {
         justify-content: space-around;
     }
 
-   #activity-details {
-    border-top: 3px solid #71B2B5;
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 50%;
-    align-content: baseline;
-   }
+    #activity-details {
+        border-top: 3px solid #71B2B5;
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        align-content: baseline;
+    }
 
-   #activity-details > div {
-    flex-grow: 1;
-   }
-   
-   #bar-details {
-    border-left: 3px solid #E3705F;
-    border-bottom: 3px solid #71B2B5;
-    flex-basis: 50%;
-   }
+    #activity-details>div {
+        flex-grow: 1;
+    }
 
-   #bar-picture-div {
-    padding-top: 0;
-   }
+    #bar-details {
+        border-left: 3px solid #E3705F;
+        border-bottom: 3px solid #71B2B5;
+        flex-basis: 50%;
+    }
 
-   section h3 {
-    padding: 0;
-   }
+    #bar-picture-div {
+        padding-top: 0;
+    }
 
-   .embedded-map {
-    height: 450px;
-   }
+    section h3 {
+        padding: 0;
+    }
+
+    /* Details Page */
+
+    #when-where {
+        display: flex;
+        flex-direction: row;
+        width: 100vh;
+        margin: 1em auto;
+    }
+
+    .embedded-map {
+        height: 450px;
+    }
+
+    #details-intro-text {
+        border-bottom: 3px solid #E3705F;
+        border-right: 3px solid #71B2B5;
+        border-left: 3px solid #71B2B5;
+        width: 50vh;
+        height: fit-content;
+    }
+
+    #details-table {
+        border-top: 3px solid #E3705F;
+        border-right: 3px solid #71B2B5;
+        padding: 30px;
+    }
 }
