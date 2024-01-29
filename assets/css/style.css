@@ -130,6 +130,10 @@ section h3 {
     margin-top: 0;
 }
 
+iframe {
+    border: 0;
+}
+
 /* Details Page Main */
 
 table, td {
@@ -144,9 +148,11 @@ th {
     border: 2px solid #E6DFD8;
     border-collapse: collapse;
     background-color: rgba(113, 178, 181, 0.8);
-    padding: 1em;
+    padding: 0.75em;
     text-align: left;
+    font-size: 110%;
 }
+
 
 /* Footer */
 
@@ -251,5 +257,9 @@ footer a {
 
    section h3 {
     padding: 0;
+   }
+
+   .embedded-map {
+    height: 450px;
    }
 }
