@@ -168,37 +168,55 @@ th {
     height: auto;
 }
 
+#form-div {
+    display: flex;
+    flex-direction: row;
+}
+
 #rsvp-image-div {
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 /* Block of text on image*/
+
 #text-block {
     position: absolute;
     top: 30%;
     width: 100%;
-    text-align: start;
+    text-align: center;
 }
 
 #text-block h1 {
     font-size: 30vw;
     color: #71B2B5;
     padding: 20px;
-    }
+}
+
+/* Form Styling */
 
 form {
     border: 2px solid #71B2B5;
     padding: 1em;
     line-height: 2;
+    width: 100%;
 }
 
 input[type=text] {
-    width: 50%;
+    width: 60%;
 }
 
 input[type=checkbox],
 input[type=radio] {
     margin-left: 2em;
+}
+
+input[type=submit] {
+    background-color: #71B2B5;
+    border: none;
+    color: #E6DFD8;
+    padding: 15px 30px;
+    font-size: 130%;
 }
 
 /* Footer */
@@ -259,6 +277,11 @@ footer a {
 
     main div {
         padding: 50px;
+    }
+
+    #text-block,
+    #rsvp-image-div {
+        padding: 0;
     }
 
     #intro-text {
@@ -339,5 +362,13 @@ footer a {
         padding: 30px;
     }
 
-    
+    /* RSVP Page */
+
+    form {
+        width: 50%;
+    }
+
+    #form-div {
+        justify-content: center;
+    }
 }
