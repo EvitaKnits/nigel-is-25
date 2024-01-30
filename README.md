@@ -48,7 +48,7 @@ Aiming for a vivid, stylish and energising palette.
 - Bar photo used on RSVP page: Photo by Kawasaki Toshihiro: https://unsplash.com/photos/brown-wooden-bottle-rack-with-bottles-X5upu8w0ZTc
 - How to style forms: https://www.w3schools.com/css/css_form.asp
 - How to make a shadow around my submit box: https://www.w3schools.com/css/css3_shadows_box.asp
-
+- Thank you image: Photo by Gratisography: https://www.pexels.com/photo/light-sign-typography-lighting-519/ 
 
 ## TESTING
 

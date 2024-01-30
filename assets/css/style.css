@@ -245,7 +245,7 @@ input[type=submit] {
 }
 
 input[type=submit]:active {
-    background-color: #71B2B5; 
+    background-color: #71B2B5;
 }
 
 input[type=submit]:hover {
@@ -256,6 +256,28 @@ input[type=submit]:hover {
 #submit-button {
     text-align: center;
 }
+
+/* Form Submit Page */
+
+#form-submission {
+    display: flex;
+    flex-direction: column;
+}
+
+#thanks-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+    padding: 2px;
+    margin: 0.25em 0 0.5em 0;
+}
+
+#thanks-message {
+    padding: 1.5em;
+    text-align: center;
+    flex-grow: 1;
+}
+
 /* Footer */
 
 #footer-text {
@@ -412,7 +434,7 @@ footer a {
         position: unset;
         text-align: center;
     }
-    
+
     #text-block h1 {
         font-size: 10vw;
         color: #71B2B5;
@@ -432,5 +454,13 @@ footer a {
         justify-content: center;
         padding-top: 0;
         margin-top: 0;
+    }
+
+    /* Form Submission Page */
+
+    #thanks-message {
+        border-top: 3px solid #71B2B5;
+        border-left: 3px solid #E3705F;
+        font-size: 140%;
     }
 }
