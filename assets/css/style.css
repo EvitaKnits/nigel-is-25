@@ -270,6 +270,10 @@ footer a {
     h3 {
         font-size: medium;
     }
+
+    form {
+        width: 90%;
+    }
 }
 
 
@@ -279,6 +283,10 @@ footer a {
     nav {
         justify-content: right;
         padding-right: 1em;
+    }
+
+    form {
+        width: 50%;
     }
 }
 
@@ -383,8 +391,19 @@ footer a {
 
     /* RSVP Page */
 
-    #rsvp-image-div {
+    #bottles-bar {
         display: none;
+    }
+
+    #text-block {
+        position: unset;
+        text-align: center;
+    }
+    
+    #text-block h1 {
+        font-size: 10vw;
+        color: #71B2B5;
+
     }
 
     #rsvp-page {
@@ -398,5 +417,7 @@ footer a {
 
     #form-div {
         justify-content: center;
+        padding-top: 0;
+        margin-top: 0;
     }
 }
