@@ -29,6 +29,7 @@ h1 {
     color: #372C57;
 }
 
+/* Removes hyperlink underline from site title */
 header a {
     text-decoration: none;
 }
@@ -166,6 +167,7 @@ th {
 #bottles-bar {
     max-width: 100%;
     height: auto;
+    border-radius: 5%;
 }
 
 #form-div {
@@ -195,30 +197,47 @@ th {
 
 /* Form Styling */
 
+#form-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
 form {
     border: 2px solid #71B2B5;
+    border-radius: 10px;
     padding: 1em;
     line-height: 2;
-    width: 100%;
+    background-color: #f7f5f3;
 }
 
 input[type=text] {
-    width: 60%;
+    width: 100%;
+    background-color: #f7f5f3;
+    border: 1px dashed #E3705F;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 input[type=checkbox],
 input[type=radio] {
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 input[type=submit] {
     background-color: #71B2B5;
     border: none;
-    color: #E6DFD8;
+    color: #372C57;
     padding: 15px 30px;
     font-size: 130%;
 }
 
+#submit-button {
+    text-align: center;
+}
 /* Footer */
 
 #footer-text {
@@ -245,10 +264,6 @@ footer a {
 @media only screen and (max-width: 767px) {
     h3 {
         font-size: medium;
-    }
-
-    #dierary-details {
-        width: 100%;
     }
 }
 
@@ -365,7 +380,7 @@ footer a {
     /* RSVP Page */
 
     form {
-        width: 50%;
+        width: 33%;
     }
 
     #form-div {
