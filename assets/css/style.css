@@ -278,6 +278,12 @@ input[type=submit]:hover {
     flex-grow: 1;
 }
 
+/* 404 page */
+
+#not-found {
+   padding: 2em;
+}
+
 /* Footer */
 
 #footer-text {
