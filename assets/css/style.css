@@ -170,11 +170,6 @@ th {
     border-radius: 5%;
 }
 
-#form-div {
-    display: flex;
-    flex-direction: row;
-}
-
 #rsvp-image-div {
     display: flex;
     justify-content: center;
@@ -228,7 +223,7 @@ input[type=radio] {
 }
 
 input[type=submit] {
-    background-color: #71B2B5;
+    background-color: #b1d5d6;
     border: none;
     border-radius: 5px;
     color: #372C57;
@@ -237,10 +232,11 @@ input[type=submit] {
 }
 
 input[type=submit]:active {
-    border: 1px solid #E3705F;   
+    background-color: #71B2B5; 
 }
 
 input[type=submit]:hover {
+    background-color: #a0cbcd;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -284,7 +280,6 @@ footer a {
         justify-content: right;
         padding-right: 1em;
     }
-
 }
 
 /* Media query for large devices (992px and up) as per W3 Schools Typical Device Breakpoints */
@@ -387,6 +382,15 @@ footer a {
     }
 
     /* RSVP Page */
+
+    #rsvp-image-div {
+        display: none;
+    }
+
+    #rsvp-page {
+        background-image: url('../images/bottles-on-bar.jpg');
+        background-size: cover;
+    }
 
     form {
         width: 33%;
