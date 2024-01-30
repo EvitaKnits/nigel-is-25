@@ -60,7 +60,7 @@ nav a:hover {
     border-color: #372C57;
 }
 
-/* Main + homepage */
+/* Homepage */
 
 main {
     background-color: #E6DFD8;
@@ -139,6 +139,10 @@ iframe {
 
 /* Details Page Main */
 
+#when-where {
+    margin-bottom: 0;
+}
+
 table,
 td {
     border: 2px solid #E6DFD8;
@@ -160,6 +164,15 @@ th {
 #details-table {
     display: flex;
     justify-content: center;
+}
+
+iframe {
+    border-top: 3px solid #71B2B5;
+    border-bottom: 3px solid #71B2B5;
+}
+
+h2 {
+    padding-bottom: 1em;
 }
 
 /* RSVP Page Main */
