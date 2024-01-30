@@ -47,6 +47,7 @@ Aiming for a vivid, stylish and energising palette.
 - Where I learnt to add a text block over my bar image on the RSVP page: https://www.w3schools.com/howto/howto_css_image_text_blocks.asp
 - Bar photo used on RSVP page: Photo by Kawasaki Toshihiro: https://unsplash.com/photos/brown-wooden-bottle-rack-with-bottles-X5upu8w0ZTc
 - How to style forms: https://www.w3schools.com/css/css_form.asp
+- How to make a shadow around my submit box: https://www.w3schools.com/css/css3_shadows_box.asp
 
 
 ## TESTING

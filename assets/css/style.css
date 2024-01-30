@@ -230,9 +230,18 @@ input[type=radio] {
 input[type=submit] {
     background-color: #71B2B5;
     border: none;
+    border-radius: 5px;
     color: #372C57;
     padding: 15px 30px;
     font-size: 130%;
+}
+
+input[type=submit]:active {
+    border: 1px solid #E3705F;   
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #submit-button {
