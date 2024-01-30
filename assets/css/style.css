@@ -287,6 +287,8 @@ input[type=submit]:hover {
 #not-found {
    padding: 2em;
    border: 3px solid #E3705F;
+   border-radius: 10px;
+   text-align: center;
 }
 
 /* Footer */
