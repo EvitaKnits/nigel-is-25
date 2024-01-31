@@ -76,32 +76,56 @@ Includes a thank you page
 
 ## TESTING
 
+REFACTORING BUT DO I NEED SEPARATE CSS FILES?
+
 I completed the following types of testing throughout development and at the end of my project:
 
-- Manual feature testing (ensuring I meet all user needs)
-- Screen size responsiveness via Chrome Devtools
-- Performance and accessibility testing via Lighthouse in Chrome Devtools
-- Code validator testing
+- **Manual feature testing:** I clicked through the whole site ensuring I met all user needs and that everything appeared as expected. 
+- **Screen size responsiveness:** I used Chrome Devtools to check three key screen sizes (mobile, tablet and computer), as well as using the responsive setting to slide the width from narrow all the way through to wide to check the transition points.
+- **Performance and accessibility testing:** I used Lighthouse in Chrome Devtools to detect any issues.
+- **Code validator testing**
     - HTML via [W3C](https://validator.w3.org/)
     - CSS via [Jigsaw](https://jigsaw.w3.org/css-validator/)
-- Browser compatibility with Chrome, Safari, Firefox and Edge
+- **Browser compatibility testing:** I clicked through my whole site in each of the three key screen sizes on Chrome, Safari, Firefox and Edge.
 
-Below I have indicated via which type of testing the bugs were found. 
+Below is a list of bugs with the type of testing they were found via. 
 
 (Add screenshots before and after to make your readme as visual as possible)
 
 ### Resolved Bugs
 
+#### Manual Testing
+
+1. The navigation bar does not have the semantic tag `<button>` to help screen readers.
+
+2. The title above the YouTube video is not aligned with the left edge of the video, whereas the title above the image next to the YouTube video is. 
+
+#### Screen Size Responsiveness
+
+1. I found that when scaling the screen using the responsive setting in Chrome Devtools, a certain size between tablet and computer screens made the table on my 'The Details' page go off the edge. I found that removing the 'width: 100vh' property from the `<section>` that this table was in solved this. 
+
+2. The super-wide screen made the All Bar One image on the homepage look small compared to the YouTube Video. I found that this was because the size of the image was too small, so I replaced it with a bigger image and this solved that issue. 
+
 #### Accessibility Testing 
-- I originally had #372C57 colour text on a background of #E3705F but this was flagged: 'Background and foreground colors do not have a sufficient contrast ratio.' So I changed this to black text.
-- My iframes did not have titles. I added these.
-- My social media icons did not have names. I added these. 
-- I had used a h3 element to emphasise something on a page which was not in the sequentially-descending. 
+1. I originally had #372C57 colour text on a background of #E3705F got my navigation bar but this was flagged: 'Background and foreground colors do not have a sufficient contrast ratio.' So I changed this to black text.
+
+##### BEFORE:
+
+##### AFTER:
+
+
+2. My iframes did not have titles. I added these.
+
+
+3. My social media icons did not have names. I added these. 
+
+
+4. I had used a h3 element to emphasise something on a page which was not in the sequentially-descending. 
+
+5. Although lighthouse did not flag this to me, I saw that I had not added any aria-labels for images and links, so I added these too. 
 
 ### Unresolved Bugs
 
-#### Screen Size Responsiveness
-- The super-wide screen makes the All Bar One image on the homepage look small compared to the YouTube Video but it's unlikely that someone will be using that screen size and its not a requirement to ensure responsivity on the extreme ends of the scale.
 
 ## DEPLOYMENT
 
@@ -116,6 +140,16 @@ The live link can be found here: https://evitaknits.github.io/nigel-is-25/
 
 ## CREDITS
 
+### Content
+
+
+### Media
+
+
+### Sources of Learning
+
+Check I have enough references for all the things I did and enough commented explanations within the code too
+
 For each credit, you need a title/description, a source or a link and the context (how it was used and what lessons we learnt from it)
 
 - Favicon generator: https://realfavicongenerator.net/
@@ -124,7 +158,7 @@ For each credit, you need a title/description, a source or a link and the contex
 - Wording of homepage main content assisted by Chat GPT with the prompt: "Pretend you are inviting your friends to your birthday party. You are called Nigel, you are a man turning 25 years old. It should be a paragraph long"
 - Font Awesome used for icons: https://fontawesome.com/
 - W3 schools for making a responsive iframe for my youtube video: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
-- All Bar One photo from: https://www.allbarone.co.uk/national-search/south-east/all-bar-one-brighton#/
+- All Bar One photo from: https://www.designmynight.com/brighton/bars/the-lanes/all-bar-one-brighton
 - How to style tables: https://www.w3schools.com/html/html_table_borders.asp
 - Wording of details main content assisted by Chat GPT, asking it to write my paragraph in the same voice as the homepage. My content before: Here is all the information you'll need to turn up in the right place at the right time! The axe throwing activity is optional so you can just turn up to the bar part if you like, or even join us for the activity but duck out after. It'd be lovely to see you at either or both! Make sure you tell me which its you'll be attending via the RSVP form. Cheers all.
 - Where I learnt to add a text block over my bar image on the RSVP page: https://www.w3schools.com/howto/howto_css_image_text_blocks.asp
@@ -132,3 +166,4 @@ For each credit, you need a title/description, a source or a link and the contex
 - How to style forms: https://www.w3schools.com/css/css_form.asp
 - How to make a shadow around my submit box: https://www.w3schools.com/css/css3_shadows_box.asp
 - Thank you image: Photo by Gratisography: https://www.pexels.com/photo/light-sign-typography-lighting-519/ 
+- How to prevent the text boxes from overflowing the form border: https://www.w3schools.com/css/css3_box-sizing.asp 

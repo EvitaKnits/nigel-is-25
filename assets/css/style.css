@@ -1,41 +1,62 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* General Styles */
+/* GENERAL STYLES */
 
 * {
-    /* Makes all the elements go right to the edges by default */
+    /* Makes all elements go right to edges of the screen by default */
     margin: 0%;
-
 }
 
 body {
+    background-color: #E6DFD8;
+    font-family: 'Roboto', sans-serif;
     color: #372C57;
     display: flex;
     flex-direction: column;
+    /* To keep footer at the bottom of the page */
     min-height: 100vh;
+    flex-grow: 1;
 }
 
-/* Header */
+section {
+    margin: 20px;
+}
+
+h2 {
+    padding-bottom: 1em;
+}
+
+h3 {
+    padding: 1em 0;
+}
+
+hr {
+    border: 3px solid #E3705F;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* HEADER */
 
 header {
     background-color: #71B2B5;
 }
 
-header h1 {
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #372C57;
     padding: 0.5em;
     font-size: 280%;
 }
 
-h1 {
-    font-family: 'Roboto Slab', serif;
-    color: #372C57;
+header a {
+    /* Removes hyperlink underline from site title */
+    text-decoration: none;
+
 }
 
-/* Removes hyperlink underline from site title */
-header a {
-    text-decoration: none;
-}
+/* NAVIGATION BAR */
 
 nav {
     background-color: #E3705F;
@@ -47,31 +68,26 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     color: #372C57;
     margin: 0.5em;
     flex-basis: content;
+    /* Removes automatic hyperlink underline from each navigation item */
+    text-decoration: none;
 }
 
 nav a:hover {
+    /* Adds the hyperlink underline back in only when hovered */
     text-decoration: underline;
 }
 
 .current-page {
+    /* Shows which page the user is on at a glance */
     border-style: hidden hidden dotted hidden;
     border-width: 4px;
     border-color: #372C57;
 }
 
-/* Homepage */
-
-main {
-    background-color: #E6DFD8;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
+/* HOMEPAGE */
 
 #nigel-smile {
     max-width: 100%;
@@ -86,24 +102,13 @@ main {
     padding: 1.5em;
 }
 
-hr {
-    border: 3px solid #E3705F;
-    border-radius: 50%;
-    margin: 5px;
-}
-
-main section {
-    margin: 20px;
-}
-
 /* Next two selectors make iframe video responsive */
-
 #axe-video-div {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
     /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    padding-top: 56.25%;
 }
 
 #axe-video {
@@ -125,10 +130,6 @@ main section {
     margin-top: 8px;
 }
 
-section h3 {
-    padding: 1em 0;
-}
-
 #intro-section {
     margin-bottom: 0;
 }
@@ -141,19 +142,10 @@ iframe {
     border: 0;
 }
 
-/* Details Page Main */
+/* DETAILS PAGE */
 
 #when-where {
     margin-bottom: 0;
-}
-
-table,
-td {
-    border: 2px solid #E6DFD8;
-    border-collapse: collapse;
-    background-color: rgba(227, 112, 95, 0.35);
-    padding: 1em;
-    text-align: left;
 }
 
 th {
@@ -165,21 +157,27 @@ th {
     font-size: 110%;
 }
 
+table,
+td {
+    border: 2px solid #E6DFD8;
+    border-collapse: collapse;
+    background-color: rgba(227, 112, 95, 0.35);
+    padding: 1em;
+    text-align: left;
+}
+
 #details-table {
     display: flex;
     justify-content: center;
 }
 
-iframe {
+#axe-map iframe,
+#bar-map iframe {
     border-top: 3px solid #71B2B5;
     border-bottom: 3px solid #71B2B5;
 }
 
-h2 {
-    padding-bottom: 1em;
-}
-
-/* RSVP Page Main */
+/* RSVP PAGE */
 
 #bottles-bar {
     max-width: 100%;
@@ -192,23 +190,21 @@ h2 {
     justify-content: center;
 }
 
-/* Block of text on image*/
-
-#text-block {
+/* Next two selectors put the block of text on top of the bar image */
+#rsvp-text-block {
     position: absolute;
     top: 30%;
     width: 100%;
     text-align: center;
 }
 
-#text-block h1 {
+#rsvp-text-block h1 {
     font-size: 30vw;
     color: #71B2B5;
     padding: 20px;
 }
 
-/* Form Styling */
-
+/* RSVP Form Styling */
 #form-div {
     display: flex;
     flex-direction: row;
@@ -222,6 +218,7 @@ form {
     padding: 1em;
     line-height: 2;
     background-color: #f7f5f3;
+    width: 90%;
 }
 
 input[type=text] {
@@ -230,13 +227,18 @@ input[type=text] {
     border: 1px dashed #E3705F;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
     border-radius: 5px;
+    /* Prevents the text boxes from overflowing the form border */
+    box-sizing: border-box;
 }
 
 input[type=checkbox],
 input[type=radio] {
     margin-left: 3em;
+}
+
+#submit-button {
+    text-align: center;
 }
 
 input[type=submit] {
@@ -248,17 +250,15 @@ input[type=submit] {
     font-size: 130%;
 }
 
-input[type=submit]:active {
-    background-color: #71B2B5;
-}
-
+/* This darkens the colour of the submit button and adds a drop shadow when its hovered on  */
 input[type=submit]:hover {
     background-color: #a0cbcd;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#submit-button {
-    text-align: center;
+/* This darkens the submit button further when clicked  */
+input[type=submit]:active {
+    background-color: #71B2B5;
 }
 
 /* Form Submit Page */
@@ -279,16 +279,15 @@ input[type=submit]:hover {
 #thanks-message {
     padding: 1.5em;
     text-align: center;
-    /* flex-grow: 1; */
 }
 
 /* 404 page */
 
 #not-found {
-   padding: 2em;
-   border: 3px solid #E3705F;
-   border-radius: 10px;
-   text-align: center;
+    padding: 2em;
+    border: 3px solid #E3705F;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* Footer */
@@ -318,13 +317,7 @@ footer a {
     h3 {
         font-size: medium;
     }
-
-    form {
-        width: 90%;
-    }
 }
-
-
 
 /* Media query for medium devices (768px and up) as per W3 Schools Typical Device Breakpoints */
 @media only screen and (min-width: 768px) {
@@ -340,44 +333,40 @@ footer a {
 
 /* Media query for large devices (992px and up) as per W3 Schools Typical Device Breakpoints */
 @media only screen and (min-width: 992px) {
+
+    /* General Styles */
+    body {
+        font-size: 18px;
+    }
+
+    /* Adds more space around div elements on the bigger screen size where there is more space available */
+    main div {
+        padding: 50px;
+    }
+
+    /* Navigation Bar */
     nav a {
         font-size: 120%;
     }
 
+    /* Homepage */
+    /* Changes orientation from column to row and centers the content */
     #intro-section {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
-    main div {
-        padding: 50px;
-    }
-
-    #text-block,
-    #rsvp-image-div {
-        padding: 0;
-    }
-
-    #intro-text {
-        align-self: center;
-        border-left: 3px solid #71B2B5;
-        border-top: 3px solid #E3705F;
-    }
-
-    body {
-        font-size: 18px;
-    }
-
+    /* Next two selectors add stylistic lines on the wider screen instead of the <hr> used on narrower screens */
     hr {
         display: none;
     }
 
-    #intro-image-div {
-        width: 100%;
-        height: auto;
+    #intro-text {
+        border-left: 3px solid #71B2B5;
+        border-top: 3px solid #E3705F;
     }
-
+    
     #axe-bar-section {
         display: flex;
         flex-direction: row;
@@ -389,11 +378,6 @@ footer a {
         display: flex;
         flex-wrap: wrap;
         flex-basis: 50%;
-        align-content: baseline;
-    }
-
-    #activity-details>div {
-        flex-grow: 1;
     }
 
     #bar-details {
@@ -402,16 +386,13 @@ footer a {
         flex-basis: 50%;
     }
 
-    #bar-picture-div {
+   .no-vertical-padding {
+        padding-bottom: 0;
         padding-top: 0;
     }
 
-    section h3 {
-        padding: 0;
-    }
-
     /* Details Page */
-
+    /* Changes orientation of content from column to row */
     #when-where {
         display: flex;
         flex-direction: row;
@@ -419,6 +400,7 @@ footer a {
         margin: 1em auto;
     }
 
+    /* Makes maps taller on bigger screens */
     .embedded-map {
         height: 450px;
     }
@@ -438,25 +420,30 @@ footer a {
     }
 
     /* RSVP Page */
-
+    /* Next two selectors remove the image from the page and make it a background of the body instead  */
     #bottles-bar {
         display: none;
-    }
-
-    #text-block {
-        position: unset;
-        text-align: center;
-    }
-
-    #text-block h1 {
-        font-size: 10vw;
-        color: #71B2B5;
-
     }
 
     #rsvp-page {
         background-image: url('../images/bottles-on-bar.jpg');
         background-size: cover;
+    }
+
+    #rsvp-text-block,
+    #rsvp-image-div {
+        padding: 0;
+    }
+
+    #rsvp-text-block {
+        position: unset;
+        text-align: center;
+    }
+
+    /* Makes the RSVP text a heading now the image is a background */
+    #rsvp-text-block h1 {
+        font-size: 10vw;
+        color: #71B2B5;
     }
 
     form {
