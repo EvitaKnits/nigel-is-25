@@ -16,11 +16,15 @@ body {
     flex-direction: column;
     /* To keep footer at the bottom of the page */
     min-height: 100vh;
-    flex-grow: 1;
 }
 
 section {
     margin: 20px;
+}
+
+main {
+    /* To keep footer at the bottom of the page */
+    flex-grow: 1;
 }
 
 h2 {

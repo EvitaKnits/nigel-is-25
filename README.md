@@ -171,7 +171,7 @@ Below is a list of bugs with the type of testing they were found via.
 **AFTER**
 
 
-6. My social media icons did not have names. I added these. 
+6. My social media icons did not have names and the links did not open. I added names and fixed the URLs. 
 
 **BEFORE**
 ```
@@ -204,12 +204,15 @@ Below is a list of bugs with the type of testing they were found via.
 
 **AFTER**
 
-10. The footer did not remain at the bottom of the page on the 404.html page. I saw that this was because the property to do this was assigned to the `<body>` tag but I had accidentally omitted this tag in the 404.html file. 
+10. The footer did not remain at the bottom of the page on the 404.html page. This was due to me having incorrectly put the `flex-grow` CSS attribute in the parent element and not the child. I moved it and this rectified the issue. 
 
 **BEFORE**
+
 ![Bug Ten](assets/images/bug-ten.png)
 
 **AFTER**
+
+![Bug Ten](assets/images/bug-ten-fixed.png)
 
 ### Unresolved Bugs
 
