@@ -6,10 +6,6 @@
 
 AM I RESPONSIVE SCREENSHOT HERE WITH EACH SCREEN ON A DIFFERENT PART
 
-CREATE A NEW FOLDER FOR DOCUMENTATION STUFF IN ROOT DIRECTORY INCLUDING SCREENSHOTS
-
-LOOK AT THE README EXAMPLE FROM KERA IN MY BOOKMARKS
-
 ## REQUIREMENT GATHERING AND PLANNING
 
 Before starting this project, I took some time to think about what the client needed and what the users (the people the client is inviting) needed from the website. I wrote a few user stories and extracted the user needs from them. These needs will also be a part of my manual testing plan. 
@@ -165,7 +161,18 @@ I used Lighthouse in Chrome Devtools on each page of my site, on mobile and comp
 
 | Page | Screen Size | Outcome | Changes 
 |----|----|----|----|
-|
+|index.html | mobile |
+| | computer |
+|details.html | mobile |
+| | computer |
+|rsvp.html | mobile |
+| | computer |
+|form-submit.html | mobile |
+| | computer |
+|404.html | mobile |
+| | computer |
+|style.css| mobile |
+| | computer |
 
 Bugs 4,5,6,7,8,9
 
