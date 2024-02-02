@@ -50,7 +50,7 @@ This evolved as I worked through the project. I chose to combine certain pages d
 
 Having completed my rough wireframe, I took some time to pick a colour scheme. I was aiming for a vivid, stylish and energising palette. Here is what I chose:
 
-![Colour palette](documentation/colourpalette.pngcolourpalette.png)
+![Colour palette](documentation/colourpalette.png)
 
 ## FEATURES
 
@@ -177,13 +177,17 @@ I used Lighthouse in Chrome Devtools on each page of my site, on mobile and comp
 Bugs 4,5,6,7,8,9
 
 #### Colour Contrast
-I also checked the colour contrast using of my color palette combinations using Coolors.
+I also checked the colour contrast using of my color palette combinations using Coolors: https://coolors.co/contrast-checker/112a46-acc8e5.
 
-Purple on blue
-SCREENSHOT
+**Purple on blue**
 
-Purple on pink
-SCREENSHOT
+![Purple on blue](documentation/purple-blue.png)
+
+**Purple on pink**
+
+![Purple on pink](documentation/purple-pink.png)
+
+This was fixed as part of bug 4 below. 
 
 I didn't check any of the colours on each of the two cream colours (#f7f5f3 and #E6DFD8) I used for backgrounds, as the colour contrast being sufficient was easily discernible by eye.  
 
