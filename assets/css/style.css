@@ -4,7 +4,7 @@
 /* GENERAL STYLES */
 
 * {
-    /* Makes all elements go right to edges of the screen by default */
+    /* Makes all elements go right to edges of the screen by default. */
     margin: 0%;
 }
 
@@ -106,7 +106,7 @@ nav a:hover {
     padding: 1.5em;
 }
 
-/* Next two selectors make iframe video responsive */
+/* Next two selectors make iframe video responsive. I got this from https://www.w3schools.com/cssref/css3_pr_text-shadow.php */
 #axe-video-div {
     position: relative;
     overflow: hidden;
@@ -152,6 +152,7 @@ iframe {
     margin-bottom: 0;
 }
 
+/* I learnt about this table styling from here: https://www.w3schools.com/html/html_table_borders.asp */
 th {
     border: 2px solid #E6DFD8;
     border-collapse: collapse;
@@ -194,7 +195,7 @@ td {
     justify-content: center;
 }
 
-/* Next two selectors put the block of text on top of the bar image */
+/* Next two selectors put the block of text on top of the bar image. I used this source to do this: https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
 #rsvp-text-block {
     position: absolute;
     top: 30%;
@@ -206,6 +207,7 @@ td {
     font-size: 30vw;
     color: #f7f5f3;
     padding: 20px;
+    /* I learnt how to add shadow to text here: https://www.w3schools.com/cssref/css3_pr_text-shadow.php */
     text-shadow: 3px 3px grey;
 }
 
@@ -217,6 +219,7 @@ td {
     margin-top: 1em;
 }
 
+/* I learnt about general form styling from this page: https://www.w3schools.com/css/css_form.asp */
 form {
     border: 2px solid #71B2B5;
     border-radius: 10px;
@@ -233,7 +236,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     border-radius: 5px;
-    /* Prevents the text boxes from overflowing the form border */
+    /* Prevents the text boxes from overflowing the form border. I learnt this here: https://www.w3schools.com/css/css3_box-sizing.asp */
     box-sizing: border-box;
 }
 
@@ -256,7 +259,7 @@ input[type=submit] {
 }
 
 /*I learnt how to make a shadow around my submit box from here https://www.w3schools.com/css/css3_shadows_box.asp
-This darkens the colour of the submit button and adds a drop shadow when its hovered on.   */
+This darkens the colour of the submit button and adds a drop shadow when its hovered on. */
 input[type=submit]:hover {
     background-color: #a0cbcd;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -372,7 +375,7 @@ footer a {
         border-left: 3px solid #71B2B5;
         border-top: 3px solid #E3705F;
     }
-    
+
     #axe-bar-section {
         display: flex;
         flex-direction: row;
@@ -392,7 +395,7 @@ footer a {
         flex-basis: 50%;
     }
 
-   .no-vertical-padding {
+    .no-vertical-padding {
         padding-bottom: 0;
         padding-top: 0;
     }

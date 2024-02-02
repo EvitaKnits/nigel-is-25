@@ -46,7 +46,7 @@ So that I am fully informed and can communicate the information required from me
 
 With my list of requirements, I then created a very rough wireframe of the homepage on Balsamiq to inform the basic structure of my website: 
 
-![Wireframe](assets/images/wireframe.png)
+![Wireframe](documentation/wireframe.png)
 
 This evolved as I worked through the project. I chose to combine certain pages due to there not being enough content for the number of pages I initially planned. I also removed some features that I didn't think were needed to achieve the project, that I have put into the 'Features Left to Implement' section of this document. 
 
@@ -54,7 +54,7 @@ This evolved as I worked through the project. I chose to combine certain pages d
 
 Having completed my rough wireframe, I took some time to pick a colour scheme. I was aiming for a vivid, stylish and energising palette. Here is what I chose:
 
-![Colour palette](assets/images/colourpalette.png)
+![Colour palette](documentation/colourpalette.pngcolourpalette.png)
 
 ## FEATURES
 
@@ -196,14 +196,14 @@ Bug - screenshot - Fix - screenshot
 2. The super-wide screen made the All Bar One image on the homepage look small compared to the YouTube Video. I found that this was because the size of the image was too small, so I replaced it with a bigger image and this solved that issue (see image below).
 
 **BEFORE**
-![Bugs One + Two](assets/images/bug-one-two.png)
+![Bugs One + Two](documentation/bug-one-two.png)
 
 **AFTER**
 
 3. I found that when scaling the screen using the responsive setting in Chrome Devtools, a certain size between tablet and computer screens made the table on my 'The Details' page go off the edge. I found that removing the 'width: 100vh' property from the `<section>` that this table was in for my largest screen media query solved this. 
 
 **BEFORE**
-![Bug Three](assets/images/bug-three.png)
+![Bug Three](documentation/bug-three.png)
 
 **AFTER**
 
@@ -236,11 +236,11 @@ PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
 
 **BEFORE**
 
-![Bug Ten](assets/images/bug-ten.png)
+![Bug Ten](documentation/bug-ten.png)
 
 **AFTER**
 
-![Bug Ten](assets/images/bug-ten-fixed.png)
+![Bug Ten](documentation/bug-ten-fixed.png)
 
 ### Unresolved Bugs
 
@@ -320,9 +320,16 @@ I learnt how to prevent the text input boxes overflowing the border of the form 
 **Box Shadow**
 I learnt how to make a shadow around my submit box from here: https://www.w3schools.com/css/css3_shadows_box.asp
 
+**Text Shadow**
+I learnt how to add shadow to my RSVP image text here: https://www.w3schools.com/cssref/css3_pr_text-shadow.php 
+
 ### General Credit
 I want to thank the open source community for the great resources that remind me of what I learnt in my Code Institute lessons, especially https://www.w3schools.com/ and https://developer.mozilla.org/en-US/
 
 I believe I have specifically credited where I used specific items in the previous message but this is a general credit to the reference resources I looked through to remind me how things worked as I went along.  
 
 Every effort has been made to credit everything used but if I find anything else specific later on that needs crediting, that I missed, I will add it. 
+
+## Commits
+
+My understanding of commit messaging has evolved over my time on this project and I can now see there have been times that I had other unrelated changes in my commits that I had not mentioned in the message. I had been trying to reference the main change I made and not the tweaks to other things or maybe edits of the readme that I had also made. My latest commits should be the best examples of this learning and moving more towards best practice. 
