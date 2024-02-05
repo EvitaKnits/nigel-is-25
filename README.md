@@ -157,24 +157,17 @@ Screenshot the outcomes below
 
 ### Lighthouse and Accessibility testing
 
-I used Lighthouse in Chrome Devtools on each page of my site, on mobile and computer screen sizes.
+I used Lighthouse in Chrome Devtools on each page of my site, using the computer screen size.
 
-| Page | Screen Size | Outcome | Changes 
-|----|----|----|----|
-|index.html | mobile |
-| | computer |
-|details.html | mobile |
-| | computer |
-|rsvp.html | mobile |
-| | computer |
-|form-submit.html | mobile |
-| | computer |
-|404.html | mobile |
-| | computer |
-|style.css| mobile |
-| | computer |
+| Page | Outcome | Bugs 
+|----|----|----|
+|index.html | ![Lighthouse Homepage](documentation/lighthouse-index.png) | Bugs 4, 5, 6 + 7 |
+|details.html | ![Lighthouse Details Page](documentation/lighthouse-details.png) | Bugs 4, 5, 6 + 7 |
+|rsvp.html | ![Lighthouse RSVP Page](documentation/lighthouse-rsvp.png) | Bugs 4 + 6 |
+|form-submit.html | ![Lighthouse RSVP Submission Page](documentation/lighthouse-rsvp-submit.png) | Bugs 4 + 6 |
+|404.html | ![Lighthouse 404 Page](documentation/lighthouse-404.png) | Bugs 4 + 6 |
 
-Bugs 4,5,6,7,8,9
+Bugs 8 + 9
 
 #### Colour Contrast
 I also checked the colour contrast using of my color palette combinations using Coolors: https://coolors.co/contrast-checker/112a46-acc8e5.
@@ -193,7 +186,7 @@ I didn't check any of the colours on each of the two cream colours (#f7f5f3 and 
 
 Whilst considering colour contrast, I realised that the shade of blue (#71B2B5) I had chosen for the 'RSVP' text on the bar image was most likely not contrasting enough with the darkness of the image. I therefore changed the colour of that text to the same pale cream (#F7F5F3) I had used for the background of the form on the same page to keep the cohesive colour scheme feeling, whilst providing the appropriate colour contrast. I also added a grey shadow border to differentiate the text from the paler elements of the bar image. 
 
-#### Alternative Text
+#### Alternative Text 
 
 I went through the site systematically, checking that each image had alternative text.
 
