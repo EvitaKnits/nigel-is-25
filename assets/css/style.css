@@ -423,6 +423,7 @@ footer a {
         display: flex;
         flex-direction: row;
         margin: 1em auto;
+        justify-content: center;
     }
 
     /* Makes maps taller on bigger screens */

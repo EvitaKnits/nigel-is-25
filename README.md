@@ -208,23 +208,29 @@ I went through the site systematically, checking that each image had alternative
 **Issue:** The title above the YouTube video is not aligned with the left edge of the video, whereas the title above the image next to the YouTube video is (see image below). This is only on screens larger than a tablet. 
 
 **BEFORE**
+
 ![Bugs One + Two](documentation/bug-one-two.png)
 
 **Fix:** This was because the YouTube video doesn't have the 50px padding either side that the rest of the divs including the photo does, so it made the text look mis-aligned. I fixed this by removing the 50px padding-left of the title so that it lined up with the left edge of the YouTube video.
 
 **AFTER**
+
 ![Bugs One + Two Fixed](documentation/bug-one-two-fixed.png)
+
+**Note:** This was ultimately changed to centered text above both of these but was a bug at the time because I had intended them to be left-aligned.
 
 #### Bug Two
 
 **Issue:** The super-wide screen made the All Bar One image on the homepage look small compared to the YouTube video. 
 
 **BEFORE**
+
 ![Bugs One + Two](documentation/bug-one-two.png)
 
 **Fix:** I found that this was because the size of the original image was too small, so I replaced it with a bigger image and this solved the problem.
 
 **AFTER**
+
 ![Bugs One + Two Fixed](documentation/bug-one-two-fixed.png)
 
 #### Bug Three
@@ -232,11 +238,13 @@ I went through the site systematically, checking that each image had alternative
 **Issue:** I found that when scaling the screen using the responsive setting in Chrome Devtools, a certain size between tablet and computer screens made the table on my 'The Details' page go off the edge of the page. This made my navigation bar and header become drastically shorter on the page to accomodate it. 
 
 **BEFORE**
+
 ![Bug Three](documentation/bug-three.png)
 
 **Fix:** I found that removing the 'width: 100vh' property from the `<section id="when-where">` that this table was in, for my largest screen media query, solved this. 
 
 **AFTER**
+
 ![Bug Three Fixed](documentation/bug-three-fixed.png)
 
 #### Bug Four
@@ -244,29 +252,38 @@ I went through the site systematically, checking that each image had alternative
 **Issue:** I originally had #372C57 colour text on a background of #E3705F got my navigation bar but this was flagged as inaccessible: 'Background and foreground colors do not have a sufficient contrast ratio.' 
 
 **BEFORE**
-![Bug Four](assets/images/bug-four.png)
+
+![Bug Four](documentation/bug-four.png)
 
 **Fix:** I changed the #372C57 colour text to black text.
 
 **AFTER**
-![Bug Four Fixed](assets/images/bug-four-fixed.png)
+
+
+![Bug Four Fixed](documentation/bug-four-fixed.png)
 
 #### Bug Five
 
 **Issue:** My iframes did not have titles. 
+
 **Fix:** I added titles to all iframes. 
+
 This was fixed in [this commit.](https://github.com/EvitaKnits/nigel-is-25/commit/e16570a4181e122138eb04b95bb7491f14cb7ce6)
 
 #### Bug Six
 
 **Issue:** My social media icon links did not have names and the links did not open. 
+
 **Fix:** I added names and fixed the URLs. 
+
 The names were fixed in [this commit](https://github.com/EvitaKnits/nigel-is-25/commit/9253485f39e583856da004fc2fde5f399a03de75) by adding aria-labels to links.
+
 The links opening were fixed in [this commit](https://github.com/EvitaKnits/nigel-is-25/commit/b39c9229268ab10bd444363733640b8612734113) by adding the appropriate target attribute.
 
 #### Bug Seven 
 
 **Issue:** On the homepage I had used `<h3>` headings without using `<h2>` headings first, which was not in-keeping with the sequentially-descending headings rule. On the details page I had used a `<h3>` element to emphasise something on a page rather than styling a `<p>` element.  
+
 **Fix:** I changed all the `<h3>` text to `<p>` elements because they were not actually headings and styled them using the `<strong>` tag as well as changing the `font-size` to 'larger' to make them look the same as I had intended when using the `<h3>` tag originally. This unfortunately resulted in my layout becoming misaligned, so I also tweaked the layout until it was good again. 
 This change was made in [this commit.]()
 
@@ -282,7 +299,21 @@ This change was made in [this commit.]()
 
 **AFTER**
 
-![Bug Eight](documentation/bug-eight-fixed.png)
+![Bug Eight Fixed](documentation/bug-eight-fixed.png)
+
+### Bug Nine
+
+**Issue:** At some point in my bug fixing I changed something that meant the details paragraph and table at the top of the Details page were no longer centered. 
+
+**BEFORE**
+
+![Bug Nine](documentation/bug-nine.png)
+
+**Fix:** I added `justify-content: center;` to my CSS file for the container that had these two elements in.
+
+**AFTER**
+
+![Bug Nine Fixed](documentation/bug-nine-fixed.png)
 
 ### Unresolved Bugs
 
