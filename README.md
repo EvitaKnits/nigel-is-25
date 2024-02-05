@@ -261,27 +261,28 @@ This was fixed in [this commit.](https://github.com/EvitaKnits/nigel-is-25/commi
 
 **Issue:** My social media icon links did not have names and the links did not open. 
 **Fix:** I added names and fixed the URLs. 
-The names were fixed in [this commit]() by adding aria-labels to links.
-The links opening were fixed in [this commit]() by adding the appropriate target attribute.
+The names were fixed in [this commit](https://github.com/EvitaKnits/nigel-is-25/commit/9253485f39e583856da004fc2fde5f399a03de75) by adding aria-labels to links.
+The links opening were fixed in [this commit](https://github.com/EvitaKnits/nigel-is-25/commit/b39c9229268ab10bd444363733640b8612734113) by adding the appropriate target attribute.
 
+#### Bug Seven 
 
-7. I had used h3 elements to emphasise something on a page which was not in-keeping with the sequentially-descending headings rule. 
+**Issue:** On the homepage I had used `<h3>` headings without using `<h2>` headings first, which was not in-keeping with the sequentially-descending headings rule. On the details page I had used a `<h3>` element to emphasise something on a page rather than styling a `<p>` element.  
+**Fix:** I changed all the `<h3>` text to `<p>` elements because they were not actually headings and styled them using the `<strong>` tag as well as changing the `font-size` to 'larger' to make them look the same as I had intended when using the `<h3>` tag originally. This unfortunately resulted in my layout becoming misaligned, so I also tweaked the layout until it was good again. 
+This change was made in [this commit.]()
 
-PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
+### Bug Eight
 
-8. Although Lighthouse did not flag this to me, I noticed that the navigation bar does not have the semantic tag `<button>` to help screen readers.
-
-PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
-
-9. The footer did not remain at the bottom of the page on the 404.html page. This was due to me having incorrectly put the `flex-grow` CSS attribute in the parent element and not the child. I moved it and this rectified the issue. 
+**Issue:** The footer did not remain at the bottom of the page on the 404.html page. 
 
 **BEFORE**
 
-![Bug Ten](documentation/bug-ten.png)
+![Bug Eight](documentation/bug-eight.png)
+
+**Fix:** This was due to me having incorrectly put the `flex-grow` CSS attribute in the parent element and not the child. I moved it and this rectified the issue. 
 
 **AFTER**
 
-![Bug Ten](documentation/bug-ten-fixed.png)
+![Bug Eight](documentation/bug-eight-fixed.png)
 
 ### Unresolved Bugs
 

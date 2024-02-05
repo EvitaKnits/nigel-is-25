@@ -126,20 +126,38 @@ nav a:hover {
     border-radius: 5%;
 }
 
+#bar-picture-div {
+    padding: 0;
+}
+
 #bar-image {
     max-width: 100%;
     height: auto;
     border-radius: 5%;
     padding: 2px;
-    margin-top: 8px;
 }
 
 #intro-section {
     margin-bottom: 0;
 }
 
+#activity-details, #bar-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: center;
+    margin: 0;
+    padding: 0 30px 20px 30px;
+    border: 3px solid transparent;
+}
+
+#all-bar-one-title, #hatchet-harry-title {
+    padding: 20px;
+}
+
 #axe-bar-section {
     margin-top: 0;
+    font-size: larger;
 }
 
 iframe {
@@ -150,6 +168,10 @@ iframe {
 
 #when-where {
     margin-bottom: 0;
+}
+
+#date {
+    font-size: larger;
 }
 
 /* I learnt about this table styling from here: https://www.w3schools.com/html/html_table_borders.asp */
@@ -393,15 +415,6 @@ footer a {
         border-left: 3px solid #E3705F;
         border-bottom: 3px solid #71B2B5;
         flex-basis: 50%;
-    }
-
-    .no-vertical-padding {
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-
-    #hatchet-harry-title {
-        padding-left: 0;
     }
 
     /* Details Page */
