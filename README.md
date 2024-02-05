@@ -143,16 +143,26 @@ This was carried out by both link and direct input on the following tools:
 - HTML via [W3C](https://validator.w3.org/)
 - CSS via [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
-Screenshot the outcomes below
+I completed the validation after resolving all my bugs. 
+
+The CSS was completely valid first time. 
+
+The HTML needed some changes: 
+1. I needed to move the footer element inside the body. I originally had it after the closing `</body>` tag. 
+2. It also required me to put headings into my sections or change them to divs. As I didn't think headings were required for sighted visitors to my website in most places, I added a heading to each section that was flagged to me, but hid it. This way visitors who use screen readers can have the headings, therefore improving the accessibility of my site. 
+3. The map `<iframe>` tags had `width:"100%"` where the validator was expecting a number rather than a percentage. To rectify this, I found that I could move the definition of the width from this HTML tag to the CSS (source: https://www.dofactory.com/html/iframe/width) so that's what I did. 
+4. On my RSVP page it wanted me to move row 48 to start at a particular column, but whenever I did that, it wanted me to move it to a different column. After doing this three times, I decided that I wouldn't follow this suggestion because it kept changing it's mind what was correct so that I could never satisfy the requirement. 
+
+After making the required changes for items 1-3 all my pages came back as valid:
 
 | Page Tested | Outcome |
 |----|----|
-|index.html | 
-|details.html |
-|rsvp.html |
-|form-submit.html |
-|404.html |
-|style.css| 
+|index.html | valid |
+|details.html | valid |
+|rsvp.html | valid |
+|form-submit.html | valid |
+|404.html | valid |
+|style.css| Valid |
 
 
 ### Lighthouse and Accessibility testing
@@ -201,7 +211,6 @@ Whilst considering colour contrast, I realised that the shade of blue (#71B2B5) 
 #### Alternative Text 
 
 I went through the site systematically, checking that each image had alternative text.
-
 
 ### Resolved Bugs
 
