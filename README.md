@@ -157,7 +157,7 @@ Screenshot the outcomes below
 
 ### Lighthouse and Accessibility testing
 
-I used Lighthouse in Chrome Devtools on each page of my site, using the computer screen size.
+I used Lighthouse in Chrome Devtools on each page of my site, using the mobile setting.
 
 | Page | Outcome | Bugs 
 |----|----|----|
@@ -178,6 +178,8 @@ After resolving my lighthouse bugs, I reran the report on each page and here are
 |rsvp.html | ![Lighthouse RSVP After](documentation/lighthouse-rsvp-after.png) |
 |form-submit.html | ![Lighthouse RSVP Submission After](documentation/lighthouse-rsvp-submit-after.png) |
 |404.html | ![Lighthouse 404 After](documentation/lighthouse-404-after.png) |
+
+I noted that although I had resolved all my accessibility issues, this had a negative effect on the performance of my RSVP page for some reason. At this stage this is not something I have learnt how to address so I have not done anything to rectify this. The performance on my form submission page and home page was also somehow improved.
 
 #### Colour Contrast
 I also checked the colour contrast using of my color palette combinations using Coolors: https://coolors.co/contrast-checker/112a46-acc8e5.
