@@ -167,7 +167,17 @@ I used Lighthouse in Chrome Devtools on each page of my site, using the computer
 |form-submit.html | ![Lighthouse RSVP Submission Page](documentation/lighthouse-rsvp-submit.png) | Bugs 4 + 6 |
 |404.html | ![Lighthouse 404 Page](documentation/lighthouse-404.png) | Bugs 4 + 6 |
 
-Bugs 8 + 9
+I noticed that there were a couple more accessibility concerns that I had overlooked, although lighthouse did not flag them to me: aria-labels and button html tags. These two items are reflected in bugs 8 + 9 below. 
+
+After resolving my lighthouse bugs, I reran the report on each page and here are my new results: 
+
+| Page | Outcome  
+|----|----|
+|index.html | ![Lighthouse Homepage After](documentation/lighthouse-index-after.png) | 
+|details.html | ![Lighthouse Details After](documentation/lighthouse-details-after.png) |
+|rsvp.html | ![Lighthouse RSVP After](documentation/lighthouse-rsvp-after.png) |
+|form-submit.html | ![Lighthouse RSVP Submission After](documentation/lighthouse-rsvp-submit-after.png) |
+|404.html | ![Lighthouse 404 After](documentation/lighthouse-404-after.png) |
 
 #### Colour Contrast
 I also checked the colour contrast using of my color palette combinations using Coolors: https://coolors.co/contrast-checker/112a46-acc8e5.
