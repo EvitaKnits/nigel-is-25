@@ -285,7 +285,7 @@ The links opening were fixed in [this commit](https://github.com/EvitaKnits/nige
 **Issue:** On the homepage I had used `<h3>` headings without using `<h2>` headings first, which was not in-keeping with the sequentially-descending headings rule. On the details page I had used a `<h3>` element to emphasise something on a page rather than styling a `<p>` element.  
 
 **Fix:** I changed all the `<h3>` text to `<p>` elements because they were not actually headings and styled them using the `<strong>` tag as well as changing the `font-size` to 'larger' to make them look the same as I had intended when using the `<h3>` tag originally. This unfortunately resulted in my layout becoming misaligned, so I also tweaked the layout until it was good again. 
-This change was made in [this commit.]()
+This change was made in [this commit.](https://github.com/EvitaKnits/nigel-is-25/commit/27a214c1199ae1f2e588dfd524578635a6c11c1a)
 
 ### Bug Eight
 
