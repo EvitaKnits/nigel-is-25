@@ -4,7 +4,7 @@
 
 'Nigel is 25' is a site for a private client to send to his friends and family to invite them to his birthday celebration. It includes information about the activities and locations, as well as providing a quick and easy method of responding to the invite via the website. It will be useful for Nigel's friends and family to have a one-stop digital place they can go to learn about and remind themselves about his birthday celebration. It will also be useful for Nigel as a client to collect RSVP information including dietary requirements to inform his caterer in advance. 
 
-AM I RESPONSIVE SCREENSHOT HERE WITH EACH SCREEN ON A DIFFERENT PART
+![Responsive Screens](documentation/responsive-screens.png)
 
 ## REQUIREMENT GATHERING AND PLANNING
 
@@ -60,17 +60,39 @@ For each item here you need the feature title, a screenshot of the feature and a
 
 #### Logo
 
+![Logo](documentation/logo.png)
+
+The site's logo allows the user to get back to the homepage, whichever page they are on. This is an intuitive, reliable and expected function of a website. 
+
 #### Navigation Bar
 
-#### Footer 
+![Navigation Bar](documentation/navigation.png)
+
+Similarly to the logo, the navigation bar allows the user to access any page of the site they may want to access directly. That is the home page, the details page and the RSVP form page. The styled dotted underline indicates which the current page the user is on, is. This allows the user to quickly and easily orient themeselves wherever they are. 
+
+#### Contact Details with social media links 
+
+![Footer](documentation/footer.png)
+
+The footer is also visible from every page of the site and gives users quick and easy access to the contact details of the host of the party and the owner of the website. There are three social media links that open in a new tab to allow users to get in touch that way if they so choose. With 5 different options, this allows each user to personalise their method of communication to the one that they prefer. 
 
 #### RSVP Form
 
-Includes a thank you page 
+![RSVP Form](documentation/rsvp-form.png)
+
+The RSVP form page allows the user to answer all the required questions asked by the host, plus volunteer any further information if they should have any specific or unspecified dietary requirements. There is a successful submission page which feedsback to the user that their attempt at providing the RSVP information has been confirmed. 
 
 #### Maps
 
-#### 404 Page
+![Maps](documentation/maps.png)
+
+The maps on the details page show the location of both the activity and the bar so that users of the site are able to navigate to the different parts of the birthday celebration with ease. They are able to use the maps on the page of the site or navigate to google maps to get specific directions from their location. 
+
+#### 404 Error Page
+
+![404 Error Page](documentation/404-page.png)
+
+The 404 error page gives the user a friendly message on the recognisable backdrop found across the whole site, when they try to access a page that does not exist on the site, however that may have happened. The alternative may have confused certain demographics as they would suddenly find themselves being given a generic web error and potentially not know how to navigate back to the site. This page allows the user to get back to any of the pages of the site from the logo and navigation bars too. 
 
 ### Features Left To Implement
 
