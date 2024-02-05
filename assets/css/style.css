@@ -72,7 +72,7 @@ nav {
 }
 
 nav a {
-    color: #372C57;
+    color: black;
     margin: 0.5em;
     flex-basis: content;
     /* Removes automatic hyperlink underline from each navigation item */

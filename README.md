@@ -217,7 +217,9 @@ Bug - screenshot - Fix - screenshot
 **AFTER**
 ![Bugs One + Two Fixed](documentation/bug-one-two-fixed.png)
 
-2. The super-wide screen made the All Bar One image on the homepage look small compared to the YouTube video. 
+#### Bug Two
+
+**Issue:** The super-wide screen made the All Bar One image on the homepage look small compared to the YouTube video. 
 
 **BEFORE**
 ![Bugs One + Two](documentation/bug-one-two.png)
@@ -227,7 +229,9 @@ Bug - screenshot - Fix - screenshot
 **AFTER**
 ![Bugs One + Two Fixed](documentation/bug-one-two-fixed.png)
 
-3. I found that when scaling the screen using the responsive setting in Chrome Devtools, a certain size between tablet and computer screens made the table on my 'The Details' page go off the edge of the page. This made my navigation bar and header become drastically shorter on the page to accomodate it. 
+#### Bug Three
+
+**Issue:** I found that when scaling the screen using the responsive setting in Chrome Devtools, a certain size between tablet and computer screens made the table on my 'The Details' page go off the edge of the page. This made my navigation bar and header become drastically shorter on the page to accomodate it. 
 
 **BEFORE**
 ![Bug Three](documentation/bug-three.png)
@@ -237,14 +241,23 @@ Bug - screenshot - Fix - screenshot
 **AFTER**
 ![Bug Three Fixed](documentation/bug-three-fixed.png)
 
-4. I originally had #372C57 colour text on a background of #E3705F got my navigation bar but this was flagged as inaccessible: 'Background and foreground colors do not have a sufficient contrast ratio.' So I changed this to black text.
+#### Bug Four
+
+**Issue:** I originally had #372C57 colour text on a background of #E3705F got my navigation bar but this was flagged as inaccessible: 'Background and foreground colors do not have a sufficient contrast ratio.' 
 
 **BEFORE**
 ![Bug Four](assets/images/bug-four.png)
 
-**AFTER**
+**Fix:** I changed the #372C57 colour text to black text.
 
-5. My iframes did not have titles. I added these. PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
+**AFTER**
+![Bug Four Fixed](assets/images/bug-four-fixed.png)
+
+#### Bug Five
+
+**Issue:** My iframes did not have titles. 
+**Fix:** I added titles to all iframes. 
+This was fixed in [this commit.]()
 
 
 6. My social media icons did not have names and the links did not open. I added names and fixed the URLs. PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
