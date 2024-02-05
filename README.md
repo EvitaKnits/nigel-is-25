@@ -54,8 +54,6 @@ Having completed my rough wireframe, I took some time to pick a colour scheme. I
 
 ## FEATURES
 
-For each item here you need the feature title, a screenshot of the feature and a short paragraph of the value it gives the user. 
-
 ### Existing Features
 
 #### Logo
@@ -157,7 +155,25 @@ Pixel references for each of the screen sizes
 
 #### Key Responsiveness Differences
 
-ADD SCREENSHOTS AND EXPLANATIONS HERE
+The mobile and tablet views show all content in a scrollable column across all pages. When transitioning from tablet size to the smallest computer screen size and upwards, this column shifts into a row where the increased real estate of the page can be utilised in a more attractive fashion. 
+
+**COLUMN**
+
+![Column Layout](documentation/column.png)
+
+**ROW**
+
+![Row Layout](documentation/row.png)
+
+Finally the RSVP page has a picture of a bar above the form for mobile and tablet but this switches to a background image for computer screens. 
+
+**BAR AS IMAGE ABOVE**
+
+![Bar Image Above](documentation/rsvp-image.png)
+
+**BAR AS BACKGROUND**
+
+![Bar Image in Background](documentation/rsvp-background.png)
 
 ### Code Validation
 
