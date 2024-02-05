@@ -400,12 +400,15 @@ footer a {
         padding-top: 0;
     }
 
+    #hatchet-harry-title {
+        padding-left: 0;
+    }
+
     /* Details Page */
     /* Changes orientation of content from column to row */
     #when-where {
         display: flex;
         flex-direction: row;
-        width: 100vh;
         margin: 1em auto;
     }
 

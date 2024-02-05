@@ -205,21 +205,37 @@ I went through the site systematically, checking that each image had alternative
 
 Bug - screenshot - Fix - screenshot
 
-1. The title above the YouTube video is not aligned with the left edge of the video, whereas the title above the image next to the YouTube video is (see image below). This is only on screens larger than a tablet. 
+#### Bug One
 
-2. The super-wide screen made the All Bar One image on the homepage look small compared to the YouTube Video. I found that this was because the size of the image was too small, so I replaced it with a bigger image and this solved that issue (see image below).
+**Issue:** The title above the YouTube video is not aligned with the left edge of the video, whereas the title above the image next to the YouTube video is (see image below). This is only on screens larger than a tablet. 
 
 **BEFORE**
 ![Bugs One + Two](documentation/bug-one-two.png)
 
-**AFTER**
+**Fix:** This was because the YouTube video doesn't have the 50px padding either side that the rest of the divs including the photo does, so it made the text look mis-aligned. I fixed this by removing the 50px padding-left of the title so that it lined up with the left edge of the YouTube video.
 
-3. I found that when scaling the screen using the responsive setting in Chrome Devtools, a certain size between tablet and computer screens made the table on my 'The Details' page go off the edge. I found that removing the 'width: 100vh' property from the `<section>` that this table was in for my largest screen media query solved this. 
+**AFTER**
+![Bugs One + Two Fixed](documentation/bug-one-two-fixed.png)
+
+2. The super-wide screen made the All Bar One image on the homepage look small compared to the YouTube video. 
+
+**BEFORE**
+![Bugs One + Two](documentation/bug-one-two.png)
+
+**Fix:** I found that this was because the size of the original image was too small, so I replaced it with a bigger image and this solved the problem.
+
+**AFTER**
+![Bugs One + Two Fixed](documentation/bug-one-two-fixed.png)
+
+3. I found that when scaling the screen using the responsive setting in Chrome Devtools, a certain size between tablet and computer screens made the table on my 'The Details' page go off the edge of the page. This made my navigation bar and header become drastically shorter on the page to accomodate it. 
 
 **BEFORE**
 ![Bug Three](documentation/bug-three.png)
 
+**Fix:** I found that removing the 'width: 100vh' property from the `<section id="when-where">` that this table was in, for my largest screen media query, solved this. 
+
 **AFTER**
+![Bug Three Fixed](documentation/bug-three-fixed.png)
 
 4. I originally had #372C57 colour text on a background of #E3705F got my navigation bar but this was flagged as inaccessible: 'Background and foreground colors do not have a sufficient contrast ratio.' So I changed this to black text.
 
