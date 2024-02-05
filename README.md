@@ -167,7 +167,7 @@ I used Lighthouse in Chrome Devtools on each page of my site, using the computer
 |form-submit.html | ![Lighthouse RSVP Submission Page](documentation/lighthouse-rsvp-submit.png) | Bugs 4 + 6 |
 |404.html | ![Lighthouse 404 Page](documentation/lighthouse-404.png) | Bugs 4 + 6 |
 
-I noticed that there were a couple more accessibility concerns that I had overlooked, although lighthouse did not flag them to me: aria-labels and button html tags. These two items are reflected in bugs 8 + 9 below. 
+I noticed that there was one more accessibility concern that I had overlooked, although lighthouse did not flag it to me: button html tags in my navigation bar. This item is reflected in bug 8 below.
 
 After resolving my lighthouse bugs, I reran the report on each page and here are my new results: 
 
@@ -202,8 +202,6 @@ I went through the site systematically, checking that each image had alternative
 
 
 ### Resolved Bugs
-
-Bug - screenshot - Fix - screenshot
 
 #### Bug One
 
@@ -257,25 +255,25 @@ Bug - screenshot - Fix - screenshot
 
 **Issue:** My iframes did not have titles. 
 **Fix:** I added titles to all iframes. 
-This was fixed in [this commit.]()
+This was fixed in [this commit.](https://github.com/EvitaKnits/nigel-is-25/commit/e16570a4181e122138eb04b95bb7491f14cb7ce6)
 
+#### Bug Six
 
-6. My social media icons did not have names and the links did not open. I added names and fixed the URLs. PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
+**Issue:** My social media icon links did not have names and the links did not open. 
+**Fix:** I added names and fixed the URLs. 
+The names were fixed in [this commit]() by adding aria-labels to links.
+The links opening were fixed in [this commit]() by adding the appropriate target attribute.
 
 
 7. I had used h3 elements to emphasise something on a page which was not in-keeping with the sequentially-descending headings rule. 
 
 PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
 
-8. Although lighthouse did not flag this to me, I saw that I had not added any aria-labels for images and links, so I added these too. 
+8. Although Lighthouse did not flag this to me, I noticed that the navigation bar does not have the semantic tag `<button>` to help screen readers.
 
 PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
 
-9. Although Lighthouse did not flag this to me, I noticed that the navigation bar does not have the semantic tag `<button>` to help screen readers.
-
-PUT THE COMMIT URL HERE FOR WHERE I FIXED IT.
-
-10. The footer did not remain at the bottom of the page on the 404.html page. This was due to me having incorrectly put the `flex-grow` CSS attribute in the parent element and not the child. I moved it and this rectified the issue. 
+9. The footer did not remain at the bottom of the page on the 404.html page. This was due to me having incorrectly put the `flex-grow` CSS attribute in the parent element and not the child. I moved it and this rectified the issue. 
 
 **BEFORE**
 
